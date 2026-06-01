@@ -151,14 +151,9 @@ git push origin feature-name
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
 
 ## 👨‍💻 Author
 
-Developed by [Aditya Dangre GitHub Profile](https://github.com/adityadangre?utm_source=chatgpt.com)
+Developed by [Aditya Dangre](https://github.com/adityadangre?utm_source=chatgpt.com)
 
 ⭐ If you like this project, consider giving it a star on GitHub!
