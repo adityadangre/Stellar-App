@@ -1,159 +1,123 @@
-# Stellar App 🌟
+# Stellar App 🌌
 
-A modern mobile application built using React Native and Expo.
-Stellar App focuses on delivering a clean UI, smooth performance, and an engaging user experience.
+Stellar App is a React Native astronomy application that allows users to explore spacecrafts, discover NASA’s Astronomy Picture of the Day, and interact with a live star map.
 
-Repository: [Stellar-App GitHub Repository](https://github.com/adityadangre/Stellar-App?utm_source=chatgpt.com)
+Built using **React Native** and **Expo**, the app combines space education with interactive astronomy features in a clean and user-friendly mobile interface.
 
 ---
 
-## 📱 Features
+## ✨ Features
 
-* Modern and responsive UI
-* Cross-platform support (Android & iOS)
-* Fast and optimized performance
-* Easy navigation and clean architecture
-* Built with React Native + Expo
+### 🚀 Space Crafts
+
+* Explore real spacecraft data
+* View spacecraft images and details
+* Learn about different space organizations and missions
+
+### ⭐ Interactive Star Map
+
+* Real-time virtual sky exploration
+* View stars and constellations
+* Uses user-provided latitude and longitude for sky positioning
+
+### 📸 Astronomy Picture of the Day
+
+* Displays NASA’s daily astronomy image/video
+* Includes title and detailed explanation
+* Fetches real-time data from NASA APIs
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **React Native**
-* **Expo**
-* **JavaScript**
-* **Babel**
+* React Native
+* Expo
+* JavaScript
+* React Navigation
+* Axios
+* WebView
+
+---
+
+## 🌐 APIs Used
+
+* NASA APOD API
+* Space Devs API
+* Virtual Sky API
 
 ---
 
 ## 📂 Project Structure
 
-```bash
+```bash id="x4ojr4"
 Stellar-App/
-│── assets/          # Images, icons, and static files
-│── screens/         # App screens/components
-│── App.js           # Main entry point
-│── app.json         # Expo configuration
-│── babel.config.js  # Babel configuration
-│── package.json     # Dependencies and scripts
+│── assets/              # Images and static assets
+│── screens/             # Application screens
+│── components/          # Reusable UI components
+│── App.js               # Main entry point
+│── package.json         # Dependencies and scripts
+│── app.json             # Expo configuration
+│── babel.config.js      # Babel configuration
 ```
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-Make sure you have installed:
-
-* Node.js
-* npm or yarn
-* Expo CLI
-
-Install Expo CLI globally:
-
-```bash
-npm install -g expo-cli
-```
-
----
-
-## ⚙️ Installation
+## 🚀 Installation
 
 Clone the repository:
 
-```bash
+```bash id="5n9q3h"
 git clone https://github.com/adityadangre/Stellar-App.git
 ```
 
-Move into the project folder:
+Move into the project directory:
 
-```bash
+```bash id="v1s1nc"
 cd Stellar-App
 ```
 
 Install dependencies:
 
-```bash
+```bash id="y4g0v4"
 npm install
 ```
 
----
-
-## ▶️ Running the App
-
 Start the development server:
 
-```bash
-npm start
-```
-
-or
-
-```bash
+```bash id="cz5l8d"
 expo start
-```
-
-Scan the QR code using:
-
-* **Expo Go** app on Android
-* **Camera app** on iPhone
-
----
-
-## 📸 Screenshots
-
-Add your app screenshots inside the `assets/` folder and update this section.
-
-Example:
-
-```md
-![Home Screen](assets/home.png)
-![Profile Screen](assets/profile.png)
 ```
 
 ---
 
 ## 🎯 Future Improvements
 
-* Authentication system
-* Backend integration
 * Dark mode support
-* Push notifications
-* Performance optimization
+* ISS live tracking
+* Space news integration
+* Improved animations and UI
+* User authentication
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome!
+Contributions are welcome.
 
 1. Fork the repository
-2. Create a new branch
-
-```bash
-git checkout -b feature-name
-```
-
+2. Create a feature branch
 3. Commit your changes
-
-```bash
-git commit -m "Add new feature"
-```
-
-4. Push to the branch
-
-```bash
-git push origin feature-name
-```
-
+4. Push the branch
 5. Open a Pull Request
 
 ---
 
-
 ## 👨‍💻 Author
 
-Developed by [Aditya Dangre](https://github.com/adityadangre?utm_source=chatgpt.com)
+Developed by Aditya Dangre
+
+GitHub: [https://github.com/adityadangre](https://github.com/adityadangre)
+
+---
 
 ⭐ If you like this project, consider giving it a star on GitHub!
